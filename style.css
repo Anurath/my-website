@@ -1,3 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.my-8{
+    margin:6rem;
+}
+
+
+.mt-7{
+    margin-top:5rem;
+    background: #66BFBF;
+}
+
+
+
+
+
+
+/* ------------- Primary css------------- */
 .main{
     height:90vh;
     width:100%;
@@ -8,7 +29,17 @@
     display:flex;
     flex-direction:column;
     align-items:center;
+    justify-content:center;
 }
+
+@media(max-width:756px){
+    .main{
+        background-image:url("img4.jpg");
+    }
+}
+
+
+
 .name{
     font-size:100px;
     font-family:cursive;
@@ -17,13 +48,11 @@
 .prof{
     font-family:fantasy;
     font-size:60px;
-    position:absolute;
-    top:180px;
     color:rgb(33, 243, 239);
     letter-spacing:4;
 }
 .profile{
-    margin-top:30vh;
+    margin-top:20vh;
     height:200px;
     width:200px;
     border-radius:50%;
@@ -38,7 +67,7 @@
     text-align:center;
 }
 .intro{
-    height:300px;
+    height:50px;
     font-size:20px;
     width:300px;
     text-align:left;
@@ -47,4 +76,53 @@
     display:flex;
     flex-direction:column;
     align-items:center;
+}
+.skills{
+    font-size:40px;
+    margin-top:20vh;
+    color:aqua;
+}
+.img1{
+    height:300px;
+    background-image:url("skills.gif");
+    width:300px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.skilltext1{
+    height:40vh;
+    width:25vw;
+}
+#skills{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.skill2{
+
+}
+.skillimg1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.skillimg2{
+    display:flex;
+    justify-content:center;
+}
+.skilltext2{
+
+}
+.last{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+}
+.but{
+    background:aqua;
+    border-radius:6px;
+    border:none;
 }
